@@ -1,10 +1,16 @@
 
 h1 {font-family: 'Indie Flower', cursive ;font-size: 18px;}
-h3 {font-size: 15px;margin-top: -10px;color:#DA9709;font-family: 'Indie Flower', cursive;}
-h4 {font-family: 'Dongle', sans-serif;font-size: 20px;margin-bottom: -10px;margin-top: 10px;padding-bottom: 10px;}
-span{font-family: 'Dongle', sans-serif;}
-p{font-size: 18px;}
-#thirdDiv{opacity: 0.7}
-#aLocal{font-size: 18px;font-family: 'Dongle', sans-serif;margin-left: -55px;}
+h3 {font-size: 15px;margin-top: -10px;color:#DA9709;font-family: 'Indie Flower', cursive;align-items: center;display: flex;flex-direction: column;flex-wrap:wrap;}
+h4 {font-family: 'Dongle', sans-serif;font-size: 20px;margin-bottom: -10px;margin-top: 10px;padding-bottom: 10px;align-items: center;display: flex;flex-direction: column;flex-wrap:wrap;}
+span{font-family: 'Dongle', sans-serif;align-items: center;display: flex;flex-direction: column;flex-wrap:wrap;}
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    align-items: center;
+}
+img{align-items: center;display: flex;flex-direction: column;flex-wrap:wrap;}
+p{font-size: 18px;align-items: center;display: flex;flex-direction: column;flex-wrap:wrap;}
+#aLocal{font-size: 18px;font-family: 'Dongle', sans-serif;margin-top: -55px;align-items: center;display: flex;flex-direction: column;flex-wrap:wrap;}
 body{background-image:url("lemonPie.jpg");background-position: center;background-size: cover;}
 
